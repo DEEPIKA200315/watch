@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+#navbarid{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(169, 172, 173, 0.5);
+    
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(18, 4, 153) !important ;
+}
+#navbarSupportedContent a{
+    color: #000;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+    font-weight: 200px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(23, 177, 182);
+}
+#navbarSupportedContent button{
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background: url(image/img2.jpg);
+    background-position: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px #000;
+}
+#about{
+    background-color: rgb(197, 197, 197);
+}
+#about h1{
+    font-size: 50px;    
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#about img{
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 100px;
+}
+#about h3{
+    color: rgb(10, 114, 139);
+}
+#about p{
+    color: #000;
+}
+/* products */
+#products{
+    background-color: #efefef;
+}
+#products h1{
+    font-size: 50px;    
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.card img{
+    padding: 10px;
+}
+.card{
+    box-shadow: 0 0 5px gray;
+}
+.card:hover{
+    box-shadow: 0 0 5px #fff;
+    cursor: pointer;
+}
+.card p{
+    font-size: 18px;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card a:hover{
+    background-color: rgb(231, 96, 5);
+    color: #000;
+    border: none;
+}
+#reviews img{
+    border-radius: 8px;
+    box-shadow: 0 0 15px #000;
+}
+#reviews img:hover{
+    box-shadow: 0 0 5px #fff;
+    cursor: pointer;
+}
+#reviews p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+#reviews h1{
+    font-size: 50px;    
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#contact{
+    background-color: #000;
+    color: #fff;
+}
+#contact img{
+    width: 800px;
+    height: 400px;
+    margin-top: 100px;
+}
+#contact ul{
+    display: flex;
+}
+#contact li{
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+#contact a i{
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 10px;
+    color: #fff;
+}
+#contact h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 35px;
+}
